@@ -1,0 +1,41 @@
+.blue {
+    background-color: #0282f9;
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 24px;
+    span {
+        vertical-align: top;
+    }
+    .litle {
+        font-size: 6px;
+    }
+    .last {
+        margin-left: 24px;
+    }
+}
+.back-nav {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    .logo {
+        height: 50px;
+        width: 120px;
+        img {
+            height: 100%;
+        }
+    }
+    ul {
+        list-style: none;
+        display: flex;
+        margin-right: 12px;
+        li {
+            margin-right: 12px;
+        }
+    }
+}

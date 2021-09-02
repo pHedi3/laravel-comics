@@ -1,4 +1,57 @@
-div {
-  background-color: red;
+.blue {
+  background-color: #0282f9;
+  font-size: 10px;
+  color: white;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 24px;
+}
+
+.blue span {
+  vertical-align: top;
+}
+
+.blue .litle {
+  font-size: 6px;
+}
+
+.blue .last {
+  margin-left: 24px;
+}
+
+.back-nav {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+}
+
+.back-nav .logo {
+  height: 50px;
+  width: 120px;
+}
+
+.back-nav .logo img {
+  height: 100%;
+}
+
+.back-nav ul {
+  list-style: none;
+  display: flex;
+  margin-right: 12px;
+}
+
+.back-nav ul li {
+  margin-right: 12px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
