@@ -48,6 +48,26 @@
   margin-right: 12px;
 }
 
+.background {
+  display: flex;
+  padding: 12px 36px;
+}
+
+.background .list {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+}
+
+.background .list ul {
+  list-style: none;
+  margin-bottom: 24px;
+}
+
+.background .list ul li:first-child {
+  font-weight: bold;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
