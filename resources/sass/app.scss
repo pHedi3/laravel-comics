@@ -7,3 +7,127 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.active {
+    color: #0282f9;
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+}
+.terty {
+    width: 30%;
+}
+.seven {
+    width: 70%;
+}
+.fifty {
+    width: 50%;
+}
+
+.main-home {
+    padding: 48px 0;
+    background-color: #222;
+    .row {
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        a {
+            display: block;
+            &.one-comics {
+                width: calc(100% / 6);
+                padding: 12px;
+                color: white;
+                img {
+                    width: 100%;
+                }
+            }
+
+        }
+    }
+}
+
+.titan {
+    height: 300px;
+    background-image: url("/../images/jumbotron.jpg");
+    background-position: top center;
+}
+.cover {
+    height: 50px;
+    background-color: #0282f9;
+    position: relative;
+    img {
+        height: 200px;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translate(0, -100%);
+
+    }
+}
+
+.main-prodoct {
+    padding: 48px 0;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    .text-part {
+        width: 70%;
+        padding: 0 12px;
+        .price {
+            color: white;
+            display: flex;
+            height: 30px;
+            align-items: center;
+            border: 1px solid black;
+            background-color: #55ba59;
+            .avail {
+                padding: 0 12px;
+                width: 70%;
+                display: flex;
+                justify-content: space-between;
+            }
+            .where {
+                display:  flex;
+                align-items: center;
+                justify-content: center;
+                border-left: 1px solid black;
+                width: 30%;
+                height: 100%;
+            }
+         }
+    }
+    .pub {
+        width: 30%;
+        padding: 0 12px;
+        text-align: right;
+        img {
+            width: 100%;
+        }
+
+    }
+}
+
+.more {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 24px 0;
+    .talent {
+        width: 70%;
+        padding-right: 24px;
+        & > div {
+            padding: 12px 0;
+            border-bottom: 1px solid #666;
+        }
+    }
+    .specs {
+        width: 30%;
+        & > div {
+            padding: 12px 0;
+            border-bottom: 1px solid #666;
+        }
+    }
+}

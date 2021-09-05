@@ -6,15 +6,12 @@
   text-align: right;
   padding-right: 24px;
 }
-
 .blue span {
   vertical-align: top;
 }
-
 .blue .litle {
   font-size: 6px;
 }
-
 .blue .last {
   margin-left: 24px;
 }
@@ -28,22 +25,18 @@
   font-weight: 400;
   color: #333;
 }
-
 .back-nav .logo {
   height: 50px;
   width: 120px;
 }
-
 .back-nav .logo img {
   height: 100%;
 }
-
 .back-nav ul {
   list-style: none;
   display: flex;
   margin-right: 12px;
 }
-
 .back-nav ul li {
   margin-right: 12px;
 }
@@ -60,43 +53,35 @@ a.blue-text {
   padding: 24px 36px;
   overflow: hidden;
 }
-
 .background .list {
   display: flex;
   width: 600px;
   justify-content: space-between;
 }
-
 .background .list ul {
   list-style: none;
   margin-bottom: 24px;
 }
-
 .background .list ul li {
   margin-bottom: 6px;
 }
-
 .background .list ul li a {
   color: #666;
   text-decoration: none;
 }
-
 .background .list ul li:first-child {
   color: white;
   font-weight: bold;
   margin-bottom: 12px;
 }
-
 .background span {
   color: #666;
 }
-
 .background .logo-footer {
   height: 100%;
   width: 600px;
   position: relative;
 }
-
 .background .logo-footer img {
   position: absolute;
   top: 50%;
@@ -111,19 +96,16 @@ a.blue-text {
   padding: 12px 24px;
   align-items: center;
 }
-
 .social button {
   background-color: transparent;
   border: 2px solid #0282f9;
   color: white;
   padding: 12px;
 }
-
 .social .link-social {
   display: flex;
   align-items: center;
 }
-
 .social .link-social img {
   margin-left: 12px;
 }
@@ -135,3 +117,127 @@ a.blue-text {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.active {
+  color: #0282f9;
+  font-weight: bold;
+}
+
+.flex {
+  display: flex;
+}
+
+.terty {
+  width: 30%;
+}
+
+.seven {
+  width: 70%;
+}
+
+.fifty {
+  width: 50%;
+}
+
+.main-home {
+  padding: 48px 0;
+  background-color: #222;
+}
+.main-home .row {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-home .row a {
+  display: block;
+}
+.main-home .row a.one-comics {
+  width: calc(100% / 6);
+  padding: 12px;
+  color: white;
+}
+.main-home .row a.one-comics img {
+  width: 100%;
+}
+
+.titan {
+  height: 300px;
+  background-image: url("/../images/jumbotron.jpg");
+  background-position: top center;
+}
+
+.cover {
+  height: 50px;
+  background-color: #0282f9;
+  position: relative;
+}
+.cover img {
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(0, -100%);
+}
+
+.main-prodoct {
+  padding: 48px 0;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+.main-prodoct .text-part {
+  width: 70%;
+  padding: 0 12px;
+}
+.main-prodoct .text-part .price {
+  color: white;
+  display: flex;
+  height: 30px;
+  align-items: center;
+  border: 1px solid black;
+  background-color: #55ba59;
+}
+.main-prodoct .text-part .price .avail {
+  padding: 0 12px;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.main-prodoct .text-part .price .where {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid black;
+  width: 30%;
+  height: 100%;
+}
+.main-prodoct .pub {
+  width: 30%;
+  padding: 0 12px;
+  text-align: right;
+}
+.main-prodoct .pub img {
+  width: 100%;
+}
+
+.more {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  padding: 24px 0;
+}
+.more .talent {
+  width: 70%;
+  padding-right: 24px;
+}
+.more .talent > div {
+  padding: 12px 0;
+  border-bottom: 1px solid #666;
+}
+.more .specs {
+  width: 30%;
+}
+.more .specs > div {
+  padding: 12px 0;
+  border-bottom: 1px solid #666;
+}

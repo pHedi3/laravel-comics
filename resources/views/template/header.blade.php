@@ -3,13 +3,14 @@
     <span class="last">ADDITIONAL DC SITE</span>
 </div>
 <div class="back-nav">
-    <div class="logo">
-        <img src="./images/dc-logo.png" alt="">
-    </div>
+    <a href="{{route('home')}}" class="logo">
+        <img src="/images/dc-logo.png" alt="">
+    </a>
     <nav>
         <ul>
             <li>CHARACTERS</li>
-            <li>COMICS</li>
+            <li class="{{Request::route()->getName() === 'home' ? 'active' : ''}}"          
+            >COMICS</li>
             <li>MOVIES</li>
             <li>TV</li>
             <li>GAMES</li>

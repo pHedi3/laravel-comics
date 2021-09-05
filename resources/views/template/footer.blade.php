@@ -54,10 +54,10 @@
     <button>SING-UP NOW!</button>
     <div class="link-social">
         <a class="blue-text" href="">FOLLOW US</a>
-        <img src="./images/footer-facebook.png" alt="">
-        <img src="./images/footer-twitter.png" alt="">
-        <img src="./images/footer-youtube.png" alt="">
-        <img src="./images/footer-pinterest.png" alt="">
-        <img src="./images/footer-periscope.png" alt="">
+        <img src="/images/footer-facebook.png" alt="">
+        <img src="/images/footer-twitter.png" alt="">
+        <img src="/images/footer-youtube.png" alt="">
+        <img src="/images/footer-pinterest.png" alt="">
+        <img src="/images/footer-periscope.png" alt="">
     </div>
 </div>
